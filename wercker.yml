@@ -36,15 +36,6 @@ deploy:
         directory: $APP_PATH
         sshkey: $PRIVATEKEY_PATH
     - script:
-        name: npm install
-        code: |
-          ssh -i $PRIVATEKEY_PATH \
-              -l root \
-              -o UserKnownHostsFile=/dev/null \
-              -o StrictHostKeyChecking=no \
-              root@$SERVER_HOSTNAME \
-              "cd $APP_PATH && npm install"
-    - script:
         name: start app
         code: |
           ssh -i $PRIVATEKEY_PATH \
