@@ -43,4 +43,4 @@ deploy:
               -o UserKnownHostsFile=/dev/null \
               -o StrictHostKeyChecking=no \
               root@$SERVER_HOSTNAME \
-              "start hubot"
+              "restart hubot"
