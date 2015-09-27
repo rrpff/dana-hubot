@@ -7,5 +7,10 @@
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
+  "hubot-sentimental",
+  "hubot-tell",
+  "hubot-thesimpsons",
+  "hubot-2048",
+  "hubot-humanity",
   "hubot-shipit"
 ]
